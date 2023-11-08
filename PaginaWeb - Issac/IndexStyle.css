@@ -1,0 +1,44 @@
+body{
+    background-color: #003553;
+}
+
+.imagenFondo{
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0; 
+
+    border-radius: 0px 0px 100000px 0px;
+    opacity: 0.65;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.50);
+}
+.Texto{
+    color: white;
+}
+.UnaEducacion{
+    display: flex;
+    width: 675px;
+    height: 254px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    text-align: center;
+    text-shadow: 0px 4px 4px #000;
+    font-family: Couture;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: linear-gradient(113deg, #FFF 58.94%, rgba(255, 255, 255, 0.00) 78.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+    width: 737px;
+    height: 19px;
+    flex-shrink: 0;
+}

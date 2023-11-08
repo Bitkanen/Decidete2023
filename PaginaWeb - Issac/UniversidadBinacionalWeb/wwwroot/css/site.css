@@ -1,0 +1,39 @@
+html {
+    font-size: 14px;
+    color: white;
+    background-color: #003553;
+}
+
+@media (min-width: 768px) {
+    html {
+        color: white;
+        font-size: 16px;
+        background-color: #003553;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #003553;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    color: white;
+}
+
+    .navbar .navbar-nav .nav-link {
+        color: white !important;
+    }
+
+.backgroundimage {
+    border-radius: 5%;
+}
