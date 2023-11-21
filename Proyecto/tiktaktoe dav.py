@@ -1,21 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 
-
-
-def create_buttons():
-    buttons = []
-    for i in range(3):
-        row_buttons = []
-        for j in range(3):
-            btn = tk.Button(root, text="", font=('normal', 40), width=5, height=2,
-                            command=lambda row=i, col=j: on_click(row, col))
-            btn.grid(row=i, column=j, padx=5, pady=5)
-            row_buttons.append(btn)
-        buttons.append(row_buttons)
-    return buttons
-
-
 def on_click(row, col):
     global current_player
     if buttons[row][col]["text"] == "" and not winner:
@@ -91,7 +76,6 @@ root.title("Tic Tac Toe")
 buttons = create_buttons()
 current_player = "X"
 winner = False
-
 
 
 root.mainloop()
